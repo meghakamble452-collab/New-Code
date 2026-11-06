@@ -1,0 +1,213 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Hitman</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="NEXUS.Extention.irctc.p12" />
+    <None Remove="NEXUS.Booking.IPayBinResolver.txt" />
+    <None Remove="NEXUS.Extention.Beta.dll" />
+    <None Remove="NEXUS.Extention.data.dll" />
+    <None Remove="NEXUS.Extention.BhimAXIS.dll" />
+    <None Remove="NEXUS.Extention.SQLite.dll" />
+    <None Remove="NEXUS.Extention.Ionic.Zip.Reduced.dll" />
+    <None Remove="NEXUS.Extention.PhonePeCSharp.dll" />
+    <None Remove="NEXUS.Extention.Driver.dll" />
+    <None Remove="NEXUS.Extention.BhimSBI.dll" />
+    <None Remove="NEXUS.Extention.MReget.dll" />
+    <None Remove="NEXUS.Extention.CaptchaRecog.dll" />
+    <None Remove="NEXUS.Extention.NewCaptchaRecog.dll" />
+    <None Remove="NEXUS.Extention.XCaptchaRecog.dll" />
+    <None Remove="NEXUS.Extention.NpciPay.dll" />
+    <None Remove="NEXUS.Extention.FreeCharge.dll" />
+    <None Remove="Hitman-IP-Block-Fixer.dll" />
+    <EmbeddedResource Include="NEXUS.Extention.irctc.p12" LogicalName="NEXUS.Extention.irctc.p12" />
+    <EmbeddedResource Include="NEXUS.Booking.IPayBinResolver.txt" LogicalName="NEXUS.Booking.IPayBinResolver.txt" />
+    <EmbeddedResource Include="NEXUS.Extention.Beta.dll" LogicalName="NEXUS.Extention.Beta.dll" />
+    <EmbeddedResource Include="NEXUS.Extention.data.dll" LogicalName="NEXUS.Extention.data.dll" />
+    <EmbeddedResource Include="NEXUS.Extention.BhimAXIS.dll" LogicalName="NEXUS.Extention.BhimAXIS.dll" />
+    <EmbeddedResource Include="NEXUS.Extention.SQLite.dll" LogicalName="NEXUS.Extention.SQLite.dll" />
+    <EmbeddedResource Include="NEXUS.Extention.Ionic.Zip.Reduced.dll" LogicalName="NEXUS.Extention.Ionic.Zip.Reduced.dll" />
+    <EmbeddedResource Include="NEXUS.Extention.PhonePeCSharp.dll" LogicalName="NEXUS.Extention.PhonePeCSharp.dll" />
+    <EmbeddedResource Include="NEXUS.Extention.Driver.dll" LogicalName="NEXUS.Extention.Driver.dll" />
+    <EmbeddedResource Include="NEXUS.Extention.BhimSBI.dll" LogicalName="NEXUS.Extention.BhimSBI.dll" />
+    <EmbeddedResource Include="NEXUS.Extention.MReget.dll" LogicalName="NEXUS.Extention.MReget.dll" />
+    <EmbeddedResource Include="NEXUS.Extention.CaptchaRecog.dll" LogicalName="NEXUS.Extention.CaptchaRecog.dll" />
+    <EmbeddedResource Include="NEXUS.Extention.NewCaptchaRecog.dll" LogicalName="NEXUS.Extention.NewCaptchaRecog.dll" />
+    <EmbeddedResource Include="NEXUS.Extention.XCaptchaRecog.dll" LogicalName="NEXUS.Extention.XCaptchaRecog.dll" />
+    <EmbeddedResource Include="NEXUS.Extention.NpciPay.dll" LogicalName="NEXUS.Extention.NpciPay.dll" />
+    <EmbeddedResource Include="NEXUS.Extention.FreeCharge.dll" LogicalName="NEXUS.Extention.FreeCharge.dll" />
+    <EmbeddedResource Include="Hitman-IP-Block-Fixer.dll" LogicalName="Hitman-IP-Block-Fixer.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="AngleSharp">
+      <HintPath>bin\Debug\net48\AngleSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BhimAXIS">
+      <HintPath>bin\Debug\net48\BhimAXIS.dll</HintPath>
+    </Reference>
+    <Reference Include="BhimSBI">
+      <HintPath>bin\Debug\net48\BhimSBI.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>bin\Debug\net48\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="BrotliSharpLib">
+      <HintPath>bin\Debug\net48\BrotliSharpLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>bin\Debug\net48\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="EAGetMail">
+      <HintPath>bin\Debug\net48\EAGetMail.dll</HintPath>
+    </Reference>
+    <Reference Include="FreeCharge">
+      <HintPath>bin\Debug\net48\FreeCharge.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>bin\Debug\net48\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip.Reduced">
+      <HintPath>bin\Debug\net48\Ionic.Zip.Reduced.dll</HintPath>
+    </Reference>
+    <Reference Include="IRCommDLL">
+      <HintPath>bin\Debug\net48\IRCommDLL.dll</HintPath>
+    </Reference>
+    <Reference Include="MailKit">
+      <HintPath>bin\Debug\net48\MailKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>bin\Debug\net48\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IO.RecyclableMemoryStream">
+      <HintPath>bin\Debug\net48\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Playwright">
+      <HintPath>bin\Debug\net48\Microsoft.Playwright.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Registry">
+      <HintPath>bin\Debug\net48\Microsoft.Win32.Registry.dll</HintPath>
+    </Reference>
+    <Reference Include="MimeKit">
+      <HintPath>bin\Debug\net48\MimeKit.dll</HintPath>
+    </Reference>
+    <Reference Include="MsHtmlWeb">
+      <HintPath>bin\Debug\net48\MsHtmlWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="MurmurHash">
+      <HintPath>bin\Debug\net48\MurmurHash.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>bin\Debug\net48\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>bin\Debug\net48\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NpciPay">
+      <HintPath>bin\Debug\net48\NpciPay.dll</HintPath>
+    </Reference>
+    <Reference Include="Patagames.Ocr">
+      <HintPath>bin\Debug\net48\Patagames.Ocr.dll</HintPath>
+    </Reference>
+    <Reference Include="PDFService">
+      <HintPath>bin\Debug\net48\PDFService.dll</HintPath>
+    </Reference>
+    <Reference Include="PhonePeCSharp">
+      <HintPath>bin\Debug\net48\PhonePeCSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="QRCoder">
+      <HintPath>bin\Debug\net48\QRCoder.dll</HintPath>
+    </Reference>
+    <Reference Include="Select.HtmlToPdf">
+      <HintPath>bin\Debug\net48\Select.HtmlToPdf.dll</HintPath>
+    </Reference>
+    <Reference Include="SeleniumExtras.WaitHelpers">
+      <HintPath>bin\Debug\net48\SeleniumExtras.WaitHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>bin\Debug\net48\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>bin\Debug\net48\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>bin\Debug\net48\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management.Automation">
+      <HintPath>bin\Debug\net48\System.Management.Automation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>bin\Debug\net48\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WinHttpHandler">
+      <HintPath>bin\Debug\net48\System.Net.Http.WinHttpHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>bin\Debug\net48\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive">
+      <HintPath>bin\Debug\net48\System.Reactive.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.AccessControl">
+      <HintPath>bin\Debug\net48\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows">
+      <HintPath>bin\Debug\net48\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web">
+      <HintPath>bin\Debug\net48\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>bin\Debug\net48\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Channels">
+      <HintPath>bin\Debug\net48\System.Threading.Channels.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>bin\Debug\net48\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>bin\Debug\net48\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Titanium.Web.Proxy">
+      <HintPath>bin\Debug\net48\Titanium.Web.Proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="UndetectedChromeDriver">
+      <HintPath>bin\Debug\net48\UndetectedChromeDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver">
+      <HintPath>bin\Debug\net48\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="Websocket.Client">
+      <HintPath>bin\Debug\net48\Websocket.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="System.Web" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="zxing">
+      <HintPath>bin\Debug\net48\zxing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

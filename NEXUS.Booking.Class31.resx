@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="userKey" xml:space="preserve"><value>Admin</value></data>
+  <data name="allowedUser1" xml:space="preserve"><value>client</value></data>
+  <data name="allowedUser2" xml:space="preserve"><value>client1</value></data>
+  <data name="dsName1" xml:space="preserve"><value>LastUseTime</value></data>
+  <data name="dbPasswordNew" xml:space="preserve"><value>67890</value></data>
+  <data name="regSubKey" xml:space="preserve"><value>Nget</value></data>
+  <data name="kldpUser" xml:space="preserve"><value>BABU</value></data>
+  <data name="emailSend" xml:space="preserve"><value>help_neo@gmail.com</value></data>
+  <data name="chanceKey" xml:space="preserve"><value>Key@990</value></data>
+  <data name="localCompName" xml:space="preserve"><value>IRCommDLL.IRComm, Nget</value></data>
+  <data name="key" xml:space="preserve"><value>Yuks68bd98</value></data>
+  <data name="emailPass1" xml:space="preserve"><value>9333150000</value></data>
+  <data name="emailPass2" xml:space="preserve"><value>9444150000</value></data>
+  <data name="dbPassword" xml:space="preserve"><value>12345</value></data>
+  <data name="dsName" xml:space="preserve"><value>IntTime</value></data>
+  <data name="encKey" xml:space="preserve"><value>absa12$#</value></data>
+  <data name="email1" xml:space="preserve"><value>neosupport@gmail.com</value></data>
+  <data name="email2" xml:space="preserve"><value>support_neo@gmail.com</value></data>
+  <data name="expKey" xml:space="preserve"><value>expKey</value></data>
+  <data name="aPath1" xml:space="preserve"><value>OCR</value></data>
+  <data name="aPath3" xml:space="preserve"><value>RECORDER</value></data>
+  <data name="aPath2" xml:space="preserve"><value>SCAN</value></data>
+  <data name="anlKey" xml:space="preserve"><value>Nval</value></data>
+  </root>

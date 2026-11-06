@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="APP_FRAMEWORK\BankList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\Captchaa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\Form0.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\Freecharge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\frmAboutUS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\frmAddID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\frmAddTkt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\frmBackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\frmBanks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\frmBypass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\frmByPassHDFC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\frmByPassSBI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\frmCombine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\frmComplaint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\frmDownloasData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\frmManageTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\frmNotes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\frmOTP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\frmPaytmB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\frmProcessTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\frmProxySetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\frmSBI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\frmSerch_Train.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\frmShowHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\PinUpi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\tabCreditCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\tabDebitCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\tabHdfcSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\tabHistory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\tabIciciSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\tabIrctcId.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\tabMobikwSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\tabNetBanking.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\tabPaytmSetting0.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\tabSbiSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="APP_FRAMEWORK\TCntrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Booking\alert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Booking\frmDownloadOTP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Booking\frmMessege.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Booking\frmPAYTM_BYPASS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Booking\frmRecaptcha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Booking\OTPsetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmCAP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmCaptcha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmOTP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Hitman\BookingCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Hitman\FormBookingHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="IRCommDLL\frmDownload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="IRCommDLL\FrmQr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="IRCommDLL\MessageU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="IRCommDLL\QrPay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="IRCommDLL\reCaptcha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NEXUS.APP_FRAMEWORK\frmAddAadhar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NEXUS.APP_FRAMEWORK\frmNPCI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NEXUS.APP_FRAMEWORK\frmToken.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NEXUS.APP_FRAMEWORK\MailNet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NEXUS.IRCommDLL\frmAdharOTP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NEXUS.IRCommDLL\frmShowQR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NEXUS.IRCommDLL\newCaptcha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NEXUS\frmNewSBI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NEXUS\frmSBI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NEXUS\Updater.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

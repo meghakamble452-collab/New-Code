@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="HDFCDebit_Des" xml:space="preserve"><value>&lt;html&gt;
+&lt;script&gt;
+
+var BS=128;
+var BB=128;
+var RA=[,,,,[,,,,10,,12,,14],,[,,,,12,,12,,14],,[,,,,14,,14,,14]];
+var SO=[,,,,[,1,2,3],,[,1,2,3],,[,1,3,4]];
+var RC=[0x01,0x02,0x04, 0x08,0x10,0x20,0x40,0x80,0x1b,0x36,0x6c,0xd8,0xab,0x4d,0x9a,0x2f,0x5e,0xbc,0x63,0xc6,0x97,0x35,0x6a,0xd4,0xb3,0x7d,0xfa,0xef,0xc5,0x91];
+var SB=[99,124,119,123,242,107,111,197,48,1,103,43,254,215,171,118,202,130,201,125,250,89,71,240,173,212,162,175,156,164,114,192,183,253,147,38,54,63,247,204,52,165,229,241,113,216,49,21,4,199,35,195,24,150,5,154,7,18,128,226,235,39,178,117,9,131,44,26,27,110,90,160,82,59,214,179,41,227,47,132,83,209,0,237,32,252,177,91,106,203,190,57,74,76,88,207,208,239,170,251,67,77,51,133,69,249,2,127,80,60,159,168,81,163,64,143,146,157,56,245,188,182,218,33,16,255,243,210,205,12,19,236,95,151,68,23,196,167,126,61,100,93,25,115,96,129,79,220,34,42,144,136,70,238,184,20,222,94,11,219,224,50,58,10,73,6,36,92,194,211,172,98,145,149,228,121,231,200,55,109,141,213,78,169,108,86,244,234,101,122,174,8,186,120,37,46,28,166,180,198,232,221,116,31,75,189,139,138,112,62,181,102,72,3,246,14,97,53,87,185,134,193,29,158,225,248,152,17,105,217,142,148,155,30,135,233,206,85,40,223,140,161,137,13,191,230,66,104,65,153,45,15,176,84,187,22];
+var SBI=[82,9,106,213,48,54,165,56,191,64,163,158,129,243,215,251,124,227,57,130,155,47,255,135,52,142,67,68,196,222,233,203,84,123,148,50,166,194,35,61,238,76,149,11,66,250,195,78,8,46,161,102,40,217,36,178,118,91,162,73,109,139,209,37,114,248,246,100,134,104,152,22,212,164,92,204,93,101,182,146,108,112,72,80,253,237,185,218,94,21,70,87,167,141,157,132,144,216,171,0,140,188,211,10,247,228,88,5,184,179,69,6,208,44,30,143,202,63,15,2,193,175,189,3,1,19,138,107,58,145,17,65,79,103,220,234,151,242,207,206,240,180,230,115,150,172,116,34,231,173,53,133,226,249,55,232,28,117,223,110,71,241,26,113,29,41,197,137,111,183,98,14,170,24,190,27,252,86,62,75,198,210,121,32,154,219,192,254,120,205,90,244,31,221,168,51,136,7,199,49,177,18,16,89,39,128,236,95,96,81,127,169,25,181,74,13,45,229,122,159,147,201,156,239,160,224,59,77,174,42,245,176,200,235,187,60,131,83,153,97,23,43,4,126,186,119,214,38,225,105,20,99,85,33,12,125];
+function cSL(TA,PO)
+{
+var T=TA.slice(0,PO);
+TA=TA.slice(PO).concat(T);
+return TA;
+}
+var Nk=BS/32;
+var Nb=BB/32;
+var Nr=RA[Nk][Nb];
+function XT(P)
+{
+P&lt;&lt;=1;
+return((P&amp;0x100)?(P^0x11B):(P));
+}
+function GF(x,y)
+{
+var B,R=0;
+for(B=1;B&lt;256;B*=2,y=XT(y))
+{
+if(x&amp;B)R^=y;
+}
+return R;
+}
+function bS(SE,DR)
+{
+var S;
+if(DR=="e")
+	S=SB;
+else 
+	S=SBI;
+for(var i=0;i&lt;4;i++)
+	for(var j=0;j&lt;Nb;j++)
+		SE[i][j]=S[SE[i][j]];
+}
+function sR(SE,DR)
+{
+for(var i=1;i&lt;4;i++)
+if(DR=="e")
+	SE[i]=cSL(SE[i],SO[Nb][i]);
+else 
+	SE[i]=cSL(SE[i],Nb-SO[Nb][i]);
+}
+function mC(SE,DR)
+{
+	var b=[];
+	for(var j=0;j&lt;Nb;j++)
+		{
+		for(var i=0;i&lt;4;i++)
+		{
+			if(DR=="e")
+				b[i]=GF(SE[i][j],2)^GF(SE[(i+1)%4][j],3)^SE[(i+2)%4][j]^SE[(i+3)%4][j];
+			else
+				b[i]=GF(SE[i][j],0xE)^GF(SE[(i+1)%4][j],0xB)^GF(SE[(i+2)%4][j],0xD)^GF(SE[(i+3)%4][j],9);
+		}
+		for(var i=0;i&lt;4;i++)
+			SE[i][j]=b[i];
+		}
+}
+
+function aRK(SE,RK)
+{
+	for(var j=0;j&lt;Nb;j++)
+	{
+		SE[0][j]^=(RK[j]&amp;0xFF);
+		SE[1][j]^=((RK[j]&gt;&gt;8)&amp;0xFF);
+		SE[2][j]^=((RK[j]&gt;&gt;16)&amp;0xFF);
+		SE[3][j]^=((RK[j]&gt;&gt;24) &amp; 0xFF);
+	}
+}
+function YE(Y)
+{
+var EY=[];
+var T;
+Nk=BS/32;
+Nb=BB/32;
+Nr=RA[Nk][Nb];
+for(var j=0;j&lt;Nk;j++)
+	EY[j]=(Y[4*j])|(Y[4*j+1]&lt;&lt;8)|(Y[4*j+2]&lt;&lt;16)|(Y[4*j+3]&lt;&lt;24);
+for(j=Nk;j&lt;Nb*(Nr+1);j++)
+{
+T=EY[j-1];
+if(j%Nk==0)
+	T=((SB[(T&gt;&gt;8)&amp;0xFF])|(SB[(T&gt;&gt;16)&amp;0xFF]&lt;&lt;8)|(SB[(T&gt;&gt;24)&amp;0xFF]&lt;&lt;16)|(SB[T&amp;0xFF]&lt;&lt;24))^RC[Math.floor(j/Nk)-1];
+else if(Nk&gt;6&amp;&amp;j%Nk==4)
+	T=(SB[(T&gt;&gt;24)&amp;0xFF]&lt;&lt;24)|(SB[(T&gt;&gt;16)&amp;0xFF]&lt;&lt;16)|(SB[(T&gt;&gt;8)&amp;0xFF]&lt;&lt;8)|(SB[T&amp;0xFF]);EY[j]=EY[j-Nk]^T;
+}
+return EY;
+}
+function Rd(SE,RK)
+{
+bS(SE,"e");
+sR(SE,"e");
+mC(SE,"e");
+aRK(SE,RK);
+}
+function iRd(SE,RK)
+{
+aRK(SE,RK);
+mC(SE,"d");
+sR(SE,"d");
+bS(SE, "d");
+}
+function FRd(SE,RK)
+{
+bS(SE,"e");
+sR(SE,"e");
+aRK(SE,RK);
+}
+function iFRd(SE,RK)
+{
+aRK(SE,RK);
+sR(SE,"d");
+bS(SE,"d")
+;
+}
+
+function encrypt(bk,EY)
+{
+	var i;
+	if(!bk||bk.length*8!=BB)
+		return;
+	if(!EY)
+		return;bk=pB(bk);
+	aRK(bk,EY);
+	for(i=1;i&lt;Nr;i++)
+		Rd(bk,EY.slice(Nb*i,Nb*(i+1)));
+	FRd(bk,EY.slice(Nb*Nr));
+return uPB(bk);
+}
+function decrypt(bk,EY)
+{
+var i;
+	if(!bk||bk.length*8!=BB)
+		return;
+	if(!EY)
+		return;bk=pB(bk);iFRd(bk,EY.slice(Nb*Nr));
+		for(i=Nr-1;i&gt;0;i--)
+			iRd(bk,EY.slice(Nb*i,Nb*(i+1)));aRK(bk,EY);
+			return uPB(bk);
+}
+
+function byteArrayToString(bA)
+{
+	var R="";
+	for(var i=0;i&lt;bA.length; i++)
+	if(bA[i]!=0)R+=String.fromCharCode(bA[i]);
+	return R;
+}
+function byteArrayToHex(bA)
+{
+var R="";
+if(!bA)
+	return;
+for(var i=0;i&lt;bA.length;i++)
+	R+=((bA[i]&lt;16)?"0":"")+bA[i].toString(16);
+return R;
+}
+function hexToByteArray(hS)
+{
+var bA=[];
+if(hS.length%2)return;
+if(hS.indexOf("0x")==0||hS.indexOf("0X")==0)hS = hS.substring(2);
+	for (var i=0;i&lt;hS.length;i+=2)bA[Math.floor(i/2)]=parseInt(hS.slice(i,i+2),16);return bA;}function pB(OT){var SE = [];if(!OT||OT.length%4)return;SE[0]=[];SE[1]=[];SE[2]=[];SE[3]=[];for(var j=0;j&lt;OT.length;j+=4){SE[0][j/4]=OT[j];SE[1][j/4]=OT[j+1];SE[2][j/4]=OT[j+2];SE[3][j/4]=OT[j+3];}return SE;}function uPB(PK){var R=[];for(var j=0;j&lt;PK[0].length;j++){R[R.length]=PK[0][j];R[R.length]=PK[1][j];R[R.length]=PK[2][j];R[R.length]=PK[3][j];}return R;}function fPT(PT){var bpb=BB/8;var i;if(typeof PT=="string"||PT.indexOf){PT=PT.split("");for(i=0;i&lt;PT.length;i++)PT[i]=PT[i].charCodeAt(0)&amp;0xFF;}for(i=bpb-(PT.length%bpb);i&gt;0&amp;&amp;i&lt;bpb;i--) PT[PT.length]=0;return PT;}function gRB(hM){var i;var bt=[];for(i=0;i&lt;hM;i++)bt[i]=Math.round(Math.random()*255);return bt;}function rijndaelEncrypt(PT,Y,M){var EY,i,abk;var bpb=BB/8;var ct;if(!PT||!Y)return;if(Y.length*8!=BS)return;if(M=="CBC")ct=gRB(bpb);else {M="ECB";ct=[];}PT=fPT(PT);EY=YE(Y);for (var bk=0; bk&lt;PT.length/bpb;bk++){abk=PT.slice(bk*bpb,(bk+1)*bpb);if(M=="CBC")for (var i=0;i&lt;bpb; i++)abk[i] ^= ct[bk*bpb+i];ct=ct.concat(encrypt(abk,EY));}return ct;}function rijndaelDecrypt(CT,Y,M){var EY;var bpb=BB/8;var pt=[];var abk;var bk;if(!CT||!Y||typeof CT=="string")return;if(Y.length*8!=BS)return;if(!M)M="ECB";EY=YE(Y);for(bk=(CT.length/bpb)-1;bk&gt;0;bk--){abk=decrypt(CT.slice(bk*bpb,(bk+1)*bpb),EY);if(M=="CBC")for(var i=0;i&lt;bpb;i++)pt[(bk-1)*bpb+i]=abk[i]^CT[(bk-1)*bpb+i];else pt=abk.concat(pt);}if(M=="ECB") pt=decrypt(CT.slice(0,bpb),EY).concat(pt);return pt;}function stringToByteArray(st){var bA=[];for(var i=0;i&lt;st.length; i++)bA[i]=st.charCodeAt(i);return bA;}
+function genkey()
+{
+	var j="";
+	while(1)
+	{
+		var i=Math.random().toString();
+		j+=i.substring(i.lastIndexOf(".")+1);
+		if(j.length&gt;31)
+			return j.substring(0, 32);
+	}
+}
+
+function EncCard(fValue, payId, mode)
+{
+return byteArrayToHex(rijndaelEncrypt(fValue,hexToByteArray(payId), mode))
+}
+
+
+&lt;/script&gt;
+
+&lt;body&gt;
+
+
+
+
+&lt;/body&gt;
+&lt;/html&gt;</value></data>
+  <data name="HDFC_Des" xml:space="preserve"><value>&lt;html&gt;
+&lt;script&gt;
+
+function des (key, message, encrypt, mode, iv, padding) {
+  //declaring this locally speeds things up a bit
+  var spfunction1 = new Array (0x1010400,0,0x10000,0x1010404,0x1010004,0x10404,0x4,0x10000,0x400,0x1010400,0x1010404,0x400,0x1000404,0x1010004,0x1000000,0x4,0x404,0x1000400,0x1000400,0x10400,0x10400,0x1010000,0x1010000,0x1000404,0x10004,0x1000004,0x1000004,0x10004,0,0x404,0x10404,0x1000000,0x10000,0x1010404,0x4,0x1010000,0x1010400,0x1000000,0x1000000,0x400,0x1010004,0x10000,0x10400,0x1000004,0x400,0x4,0x1000404,0x10404,0x1010404,0x10004,0x1010000,0x1000404,0x1000004,0x404,0x10404,0x1010400,0x404,0x1000400,0x1000400,0,0x10004,0x10400,0,0x1010004);
+  var spfunction2 = new Array (-0x7fef7fe0,-0x7fff8000,0x8000,0x108020,0x100000,0x20,-0x7fefffe0,-0x7fff7fe0,-0x7fffffe0,-0x7fef7fe0,-0x7fef8000,-0x80000000,-0x7fff8000,0x100000,0x20,-0x7fefffe0,0x108000,0x100020,-0x7fff7fe0,0,-0x80000000,0x8000,0x108020,-0x7ff00000,0x100020,-0x7fffffe0,0,0x108000,0x8020,-0x7fef8000,-0x7ff00000,0x8020,0,0x108020,-0x7fefffe0,0x100000,-0x7fff7fe0,-0x7ff00000,-0x7fef8000,0x8000,-0x7ff00000,-0x7fff8000,0x20,-0x7fef7fe0,0x108020,0x20,0x8000,-0x80000000,0x8020,-0x7fef8000,0x100000,-0x7fffffe0,0x100020,-0x7fff7fe0,-0x7fffffe0,0x100020,0x108000,0,-0x7fff8000,0x8020,-0x80000000,-0x7fefffe0,-0x7fef7fe0,0x108000);
+  var spfunction3 = new Array (0x208,0x8020200,0,0x8020008,0x8000200,0,0x20208,0x8000200,0x20008,0x8000008,0x8000008,0x20000,0x8020208,0x20008,0x8020000,0x208,0x8000000,0x8,0x8020200,0x200,0x20200,0x8020000,0x8020008,0x20208,0x8000208,0x20200,0x20000,0x8000208,0x8,0x8020208,0x200,0x8000000,0x8020200,0x8000000,0x20008,0x208,0x20000,0x8020200,0x8000200,0,0x200,0x20008,0x8020208,0x8000200,0x8000008,0x200,0,0x8020008,0x8000208,0x20000,0x8000000,0x8020208,0x8,0x20208,0x20200,0x8000008,0x8020000,0x8000208,0x208,0x8020000,0x20208,0x8,0x8020008,0x20200);
+  var spfunction4 = new Array (0x802001,0x2081,0x2081,0x80,0x802080,0x800081,0x800001,0x2001,0,0x802000,0x802000,0x802081,0x81,0,0x800080,0x800001,0x1,0x2000,0x800000,0x802001,0x80,0x800000,0x2001,0x2080,0x800081,0x1,0x2080,0x800080,0x2000,0x802080,0x802081,0x81,0x800080,0x800001,0x802000,0x802081,0x81,0,0,0x802000,0x2080,0x800080,0x800081,0x1,0x802001,0x2081,0x2081,0x80,0x802081,0x81,0x1,0x2000,0x800001,0x2001,0x802080,0x800081,0x2001,0x2080,0x800000,0x802001,0x80,0x800000,0x2000,0x802080);
+  var spfunction5 = new Array (0x100,0x2080100,0x2080000,0x42000100,0x80000,0x100,0x40000000,0x2080000,0x40080100,0x80000,0x2000100,0x40080100,0x42000100,0x42080000,0x80100,0x40000000,0x2000000,0x40080000,0x40080000,0,0x40000100,0x42080100,0x42080100,0x2000100,0x42080000,0x40000100,0,0x42000000,0x2080100,0x2000000,0x42000000,0x80100,0x80000,0x42000100,0x100,0x2000000,0x40000000,0x2080000,0x42000100,0x40080100,0x2000100,0x40000000,0x42080000,0x2080100,0x40080100,0x100,0x2000000,0x42080000,0x42080100,0x80100,0x42000000,0x42080100,0x2080000,0,0x40080000,0x42000000,0x80100,0x2000100,0x40000100,0x80000,0,0x40080000,0x2080100,0x40000100);
+  var spfunction6 = new Array (0x20000010,0x20400000,0x4000,0x20404010,0x20400000,0x10,0x20404010,0x400000,0x20004000,0x404010,0x400000,0x20000010,0x400010,0x20004000,0x20000000,0x4010,0,0x400010,0x20004010,0x4000,0x404000,0x20004010,0x10,0x20400010,0x20400010,0,0x404010,0x20404000,0x4010,0x404000,0x20404000,0x20000000,0x20004000,0x10,0x20400010,0x404000,0x20404010,0x400000,0x4010,0x20000010,0x400000,0x20004000,0x20000000,0x4010,0x20000010,0x20404010,0x404000,0x20400000,0x404010,0x20404000,0,0x20400010,0x10,0x4000,0x20400000,0x404010,0x4000,0x400010,0x20004010,0,0x20404000,0x20000000,0x400010,0x20004010);
+  var spfunction7 = new Array (0x200000,0x4200002,0x4000802,0,0x800,0x4000802,0x200802,0x4200800,0x4200802,0x200000,0,0x4000002,0x2,0x4000000,0x4200002,0x802,0x4000800,0x200802,0x200002,0x4000800,0x4000002,0x4200000,0x4200800,0x200002,0x4200000,0x800,0x802,0x4200802,0x200800,0x2,0x4000000,0x200800,0x4000000,0x200800,0x200000,0x4000802,0x4000802,0x4200002,0x4200002,0x2,0x200002,0x4000000,0x4000800,0x200000,0x4200800,0x802,0x200802,0x4200800,0x802,0x4000002,0x4200802,0x4200000,0x200800,0,0x2,0x4200802,0,0x200802,0x4200000,0x800,0x4000002,0x4000800,0x800,0x200002);
+  var spfunction8 = new Array (0x10001040,0x1000,0x40000,0x10041040,0x10000000,0x10001040,0x40,0x10000000,0x40040,0x10040000,0x10041040,0x41000,0x10041000,0x41040,0x1000,0x40,0x10040000,0x10000040,0x10001000,0x1040,0x41000,0x40040,0x10040040,0x10041000,0x1040,0,0,0x10040040,0x10000040,0x10001000,0x41040,0x40000,0x41040,0x40000,0x10041000,0x1000,0x40,0x10040040,0x1000,0x41040,0x10001000,0x40,0x10000040,0x10040000,0x10040040,0x10000000,0x40000,0x10001040,0,0x10041040,0x40040,0x10000040,0x10040000,0x10001000,0x10001040,0,0x10041040,0x41000,0x41000,0x1040,0x1040,0x40040,0x10000000,0x10041000);
+
+  //create the 16 or 48 subkeys we will need
+  var keys = des_createKeys (key);
+  var m=0, i, j, temp, temp2, right1, right2, left, right, looping;
+  var cbcleft, cbcleft2, cbcright, cbcright2
+  var endloop, loopinc;
+  var len = message.length;
+  var chunk = 0;
+  //set up the loops for single and triple des
+  var iterations = keys.length == 32 ? 3 : 9; //single or triple des
+  if (iterations == 3) {looping = encrypt ? new Array (0, 32, 2) : new Array (30, -2, -2);}
+  else {looping = encrypt ? new Array (0, 32, 2, 62, 30, -2, 64, 96, 2) : new Array (94, 62, -2, 32, 64, 2, 30, -2, -2);}
+
+  //pad the message depending on the padding parameter
+  if (padding == 2) message += "        "; //pad the message with spaces
+  else if (padding == 1) {temp = 8-(len%8); message += String.fromCharCode (temp,temp,temp,temp,temp,temp,temp,temp); if (temp==8) len+=8;} //PKCS7 padding
+  else if (!padding) message += "\0\0\0\0\0\0\0\0"; //pad the message out with null bytes
+
+  //store the result here
+  result = "";
+  tempresult = "";
+
+  if (mode == 1) { //CBC mode
+    cbcleft = (iv.charCodeAt(m++) &lt;&lt; 24) | (iv.charCodeAt(m++) &lt;&lt; 16) | (iv.charCodeAt(m++) &lt;&lt; 8) | iv.charCodeAt(m++);
+    cbcright = (iv.charCodeAt(m++) &lt;&lt; 24) | (iv.charCodeAt(m++) &lt;&lt; 16) | (iv.charCodeAt(m++) &lt;&lt; 8) | iv.charCodeAt(m++);
+    m=0;
+  }
+
+  //loop through each 64 bit chunk of the message
+  while (m &lt; len) {
+    left = (message.charCodeAt(m++) &lt;&lt; 24) | (message.charCodeAt(m++) &lt;&lt; 16) | (message.charCodeAt(m++) &lt;&lt; 8) | message.charCodeAt(m++);
+    right = (message.charCodeAt(m++) &lt;&lt; 24) | (message.charCodeAt(m++) &lt;&lt; 16) | (message.charCodeAt(m++) &lt;&lt; 8) | message.charCodeAt(m++);
+
+    //for Cipher Block Chaining mode, xor the message with the previous result
+    if (mode == 1) {if (encrypt) {left ^= cbcleft; right ^= cbcright;} else {cbcleft2 = cbcleft; cbcright2 = cbcright; cbcleft = left; cbcright = right;}}
+
+    //first each 64 but chunk of the message must be permuted according to IP
+    temp = ((left &gt;&gt;&gt; 4) ^ right) &amp; 0x0f0f0f0f; right ^= temp; left ^= (temp &lt;&lt; 4);
+    temp = ((left &gt;&gt;&gt; 16) ^ right) &amp; 0x0000ffff; right ^= temp; left ^= (temp &lt;&lt; 16);
+    temp = ((right &gt;&gt;&gt; 2) ^ left) &amp; 0x33333333; left ^= temp; right ^= (temp &lt;&lt; 2);
+    temp = ((right &gt;&gt;&gt; 8) ^ left) &amp; 0x00ff00ff; left ^= temp; right ^= (temp &lt;&lt; 8);
+    temp = ((left &gt;&gt;&gt; 1) ^ right) &amp; 0x55555555; right ^= temp; left ^= (temp &lt;&lt; 1);
+
+    left = ((left &lt;&lt; 1) | (left &gt;&gt;&gt; 31)); 
+    right = ((right &lt;&lt; 1) | (right &gt;&gt;&gt; 31)); 
+
+    //do this either 1 or 3 times for each chunk of the message
+    for (j=0; j&lt;iterations; j+=3) {
+      endloop = looping[j+1];
+      loopinc = looping[j+2];
+      //now go through and perform the encryption or decryption  
+      for (i=looping[j]; i!=endloop; i+=loopinc) { //for efficiency
+        right1 = right ^ keys[i]; 
+        right2 = ((right &gt;&gt;&gt; 4) | (right &lt;&lt; 28)) ^ keys[i+1];
+        //the result is attained by passing these bytes through the S selection functions
+        temp = left;
+        left = right;
+        right = temp ^ (spfunction2[(right1 &gt;&gt;&gt; 24) &amp; 0x3f] | spfunction4[(right1 &gt;&gt;&gt; 16) &amp; 0x3f]
+              | spfunction6[(right1 &gt;&gt;&gt;  8) &amp; 0x3f] | spfunction8[right1 &amp; 0x3f]
+              | spfunction1[(right2 &gt;&gt;&gt; 24) &amp; 0x3f] | spfunction3[(right2 &gt;&gt;&gt; 16) &amp; 0x3f]
+              | spfunction5[(right2 &gt;&gt;&gt;  8) &amp; 0x3f] | spfunction7[right2 &amp; 0x3f]);
+      }
+      temp = left; left = right; right = temp; //unreverse left and right
+    } //for either 1 or 3 iterations
+
+    //move then each one bit to the right
+    left = ((left &gt;&gt;&gt; 1) | (left &lt;&lt; 31)); 
+    right = ((right &gt;&gt;&gt; 1) | (right &lt;&lt; 31)); 
+
+    //now perform IP-1, which is IP in the opposite direction
+    temp = ((left &gt;&gt;&gt; 1) ^ right) &amp; 0x55555555; right ^= temp; left ^= (temp &lt;&lt; 1);
+    temp = ((right &gt;&gt;&gt; 8) ^ left) &amp; 0x00ff00ff; left ^= temp; right ^= (temp &lt;&lt; 8);
+    temp = ((right &gt;&gt;&gt; 2) ^ left) &amp; 0x33333333; left ^= temp; right ^= (temp &lt;&lt; 2);
+    temp = ((left &gt;&gt;&gt; 16) ^ right) &amp; 0x0000ffff; right ^= temp; left ^= (temp &lt;&lt; 16);
+    temp = ((left &gt;&gt;&gt; 4) ^ right) &amp; 0x0f0f0f0f; right ^= temp; left ^= (temp &lt;&lt; 4);
+
+    //for Cipher Block Chaining mode, xor the message with the previous result
+    if (mode == 1) {if (encrypt) {cbcleft = left; cbcright = right;} else {left ^= cbcleft2; right ^= cbcright2;}}
+    tempresult += String.fromCharCode ((left&gt;&gt;&gt;24), ((left&gt;&gt;&gt;16) &amp; 0xff), ((left&gt;&gt;&gt;8) &amp; 0xff), (left &amp; 0xff), (right&gt;&gt;&gt;24), ((right&gt;&gt;&gt;16) &amp; 0xff), ((right&gt;&gt;&gt;8) &amp; 0xff), (right &amp; 0xff));
+
+    chunk += 8;
+    if (chunk == 512) {result += tempresult; tempresult = ""; chunk = 0;}
+  } //for every 8 characters, or 64 bits in the message
+
+  //return the result as an array
+  return result + tempresult;
+} //end of des
+
+
+
+//des_createKeys
+//this takes as input a 64 bit key (even though only 56 bits are used)
+//as an array of 2 integers, and returns 16 48 bit keys
+function des_createKeys (key) {
+  //declaring this locally speeds things up a bit
+  pc2bytes0  = new Array (0,0x4,0x20000000,0x20000004,0x10000,0x10004,0x20010000,0x20010004,0x200,0x204,0x20000200,0x20000204,0x10200,0x10204,0x20010200,0x20010204);
+  pc2bytes1  = new Array (0,0x1,0x100000,0x100001,0x4000000,0x4000001,0x4100000,0x4100001,0x100,0x101,0x100100,0x100101,0x4000100,0x4000101,0x4100100,0x4100101);
+  pc2bytes2  = new Array (0,0x8,0x800,0x808,0x1000000,0x1000008,0x1000800,0x1000808,0,0x8,0x800,0x808,0x1000000,0x1000008,0x1000800,0x1000808);
+  pc2bytes3  = new Array (0,0x200000,0x8000000,0x8200000,0x2000,0x202000,0x8002000,0x8202000,0x20000,0x220000,0x8020000,0x8220000,0x22000,0x222000,0x8022000,0x8222000);
+  pc2bytes4  = new Array (0,0x40000,0x10,0x40010,0,0x40000,0x10,0x40010,0x1000,0x41000,0x1010,0x41010,0x1000,0x41000,0x1010,0x41010);
+  pc2bytes5  = new Array (0,0x400,0x20,0x420,0,0x400,0x20,0x420,0x2000000,0x2000400,0x2000020,0x2000420,0x2000000,0x2000400,0x2000020,0x2000420);
+  pc2bytes6  = new Array (0,0x10000000,0x80000,0x10080000,0x2,0x10000002,0x80002,0x10080002,0,0x10000000,0x80000,0x10080000,0x2,0x10000002,0x80002,0x10080002);
+  pc2bytes7  = new Array (0,0x10000,0x800,0x10800,0x20000000,0x20010000,0x20000800,0x20010800,0x20000,0x30000,0x20800,0x30800,0x20020000,0x20030000,0x20020800,0x20030800);
+  pc2bytes8  = new Array (0,0x40000,0,0x40000,0x2,0x40002,0x2,0x40002,0x2000000,0x2040000,0x2000000,0x2040000,0x2000002,0x2040002,0x2000002,0x2040002);
+  pc2bytes9  = new Array (0,0x10000000,0x8,0x10000008,0,0x10000000,0x8,0x10000008,0x400,0x10000400,0x408,0x10000408,0x400,0x10000400,0x408,0x10000408);
+  pc2bytes10 = new Array (0,0x20,0,0x20,0x100000,0x100020,0x100000,0x100020,0x2000,0x2020,0x2000,0x2020,0x102000,0x102020,0x102000,0x102020);
+  pc2bytes11 = new Array (0,0x1000000,0x200,0x1000200,0x200000,0x1200000,0x200200,0x1200200,0x4000000,0x5000000,0x4000200,0x5000200,0x4200000,0x5200000,0x4200200,0x5200200);
+  pc2bytes12 = new Array (0,0x1000,0x8000000,0x8001000,0x80000,0x81000,0x8080000,0x8081000,0x10,0x1010,0x8000010,0x8001010,0x80010,0x81010,0x8080010,0x8081010);
+  pc2bytes13 = new Array (0,0x4,0x100,0x104,0,0x4,0x100,0x104,0x1,0x5,0x101,0x105,0x1,0x5,0x101,0x105);
+
+  //how many iterations (1 for des, 3 for triple des)
+  var iterations = key.length &gt; 8 ? 3 : 1; //changed by Paul 16/6/2007 to use Triple DES for 9+ byte keys
+  //stores the return keys
+  var keys = new Array (32 * iterations);
+  //now define the left shifts which need to be done
+  var shifts = new Array (0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0);
+  //other variables
+  var lefttemp, righttemp, m=0, n=0, temp;
+
+  for (var j=0; j&lt;iterations; j++) { //either 1 or 3 iterations
+    left = (key.charCodeAt(m++) &lt;&lt; 24) | (key.charCodeAt(m++) &lt;&lt; 16) | (key.charCodeAt(m++) &lt;&lt; 8) | key.charCodeAt(m++);
+    right = (key.charCodeAt(m++) &lt;&lt; 24) | (key.charCodeAt(m++) &lt;&lt; 16) | (key.charCodeAt(m++) &lt;&lt; 8) | key.charCodeAt(m++);
+
+    temp = ((left &gt;&gt;&gt; 4) ^ right) &amp; 0x0f0f0f0f; right ^= temp; left ^= (temp &lt;&lt; 4);
+    temp = ((right &gt;&gt;&gt; -16) ^ left) &amp; 0x0000ffff; left ^= temp; right ^= (temp &lt;&lt; -16);
+    temp = ((left &gt;&gt;&gt; 2) ^ right) &amp; 0x33333333; right ^= temp; left ^= (temp &lt;&lt; 2);
+    temp = ((right &gt;&gt;&gt; -16) ^ left) &amp; 0x0000ffff; left ^= temp; right ^= (temp &lt;&lt; -16);
+    temp = ((left &gt;&gt;&gt; 1) ^ right) &amp; 0x55555555; right ^= temp; left ^= (temp &lt;&lt; 1);
+    temp = ((right &gt;&gt;&gt; 8) ^ left) &amp; 0x00ff00ff; left ^= temp; right ^= (temp &lt;&lt; 8);
+    temp = ((left &gt;&gt;&gt; 1) ^ right) &amp; 0x55555555; right ^= temp; left ^= (temp &lt;&lt; 1);
+
+    //the right side needs to be shifted and to get the last four bits of the left side
+    temp = (left &lt;&lt; 8) | ((right &gt;&gt;&gt; 20) &amp; 0x000000f0);
+    //left needs to be put upside down
+    left = (right &lt;&lt; 24) | ((right &lt;&lt; 8) &amp; 0xff0000) | ((right &gt;&gt;&gt; 8) &amp; 0xff00) | ((right &gt;&gt;&gt; 24) &amp; 0xf0);
+    right = temp;
+
+    //now go through and perform these shifts on the left and right keys
+    for (var i=0; i &lt; shifts.length; i++) {
+      //shift the keys either one or two bits to the left
+      if (shifts[i]) {left = (left &lt;&lt; 2) | (left &gt;&gt;&gt; 26); right = (right &lt;&lt; 2) | (right &gt;&gt;&gt; 26);}
+      else {left = (left &lt;&lt; 1) | (left &gt;&gt;&gt; 27); right = (right &lt;&lt; 1) | (right &gt;&gt;&gt; 27);}
+      left &amp;= -0xf; right &amp;= -0xf;
+
+      //now apply PC-2, in such a way that E is easier when encrypting or decrypting
+      //this conversion will look like PC-2 except only the last 6 bits of each byte are used
+      //rather than 48 consecutive bits and the order of lines will be according to 
+      //how the S selection functions will be applied: S2, S4, S6, S8, S1, S3, S5, S7
+      lefttemp = pc2bytes0[left &gt;&gt;&gt; 28] | pc2bytes1[(left &gt;&gt;&gt; 24) &amp; 0xf]
+              | pc2bytes2[(left &gt;&gt;&gt; 20) &amp; 0xf] | pc2bytes3[(left &gt;&gt;&gt; 16) &amp; 0xf]
+              | pc2bytes4[(left &gt;&gt;&gt; 12) &amp; 0xf] | pc2bytes5[(left &gt;&gt;&gt; 8) &amp; 0xf]
+              | pc2bytes6[(left &gt;&gt;&gt; 4) &amp; 0xf];
+      righttemp = pc2bytes7[right &gt;&gt;&gt; 28] | pc2bytes8[(right &gt;&gt;&gt; 24) &amp; 0xf]
+                | pc2bytes9[(right &gt;&gt;&gt; 20) &amp; 0xf] | pc2bytes10[(right &gt;&gt;&gt; 16) &amp; 0xf]
+                | pc2bytes11[(right &gt;&gt;&gt; 12) &amp; 0xf] | pc2bytes12[(right &gt;&gt;&gt; 8) &amp; 0xf]
+                | pc2bytes13[(right &gt;&gt;&gt; 4) &amp; 0xf];
+      temp = ((righttemp &gt;&gt;&gt; 16) ^ lefttemp) &amp; 0x0000ffff; 
+      keys[n++] = lefttemp ^ temp; keys[n++] = righttemp ^ (temp &lt;&lt; 16);
+    }
+  } //for each iterations
+  //return the keys we've created
+  return keys;
+} //end of des_createKeys
+
+
+
+////////////////////////////// TEST //////////////////////////////
+function stringToHex (s) {
+  var r = "0x";
+  var hexes = new Array ("0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f");
+  for (var i=0; i&lt;s.length; i++) {r += hexes [s.charCodeAt(i) &gt;&gt; 4] + hexes [s.charCodeAt(i) &amp; 0xf];}
+  return r;
+}
+
+function hexToString (h) {
+  var r = "";
+  for (var i= (h.substr(0, 2)=="0x")?2:0; i&lt;h.length; i+=2) {r += String.fromCharCode (parseInt (h.substr (i, 2), 16));}
+  return r;
+}
+
+
+function passwordStringDes (s)
+{
+	return stringToHex(des (s.substring(0,8), s, 1, 0));
+}
+
+&lt;/script&gt;
+
+&lt;body&gt;
+
+
+
+
+&lt;/body&gt;
+&lt;/html&gt;</value></data>
+  </root>

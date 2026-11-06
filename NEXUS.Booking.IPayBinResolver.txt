@@ -1,0 +1,9 @@
+------WebKitFormBoundaryCFQp1ewkZjKMbJbF
+Content-Disposition: form-data; name="token"
+
+<<token>>
+------WebKitFormBoundaryCFQp1ewkZjKMbJbF
+Content-Disposition: form-data; name="bin"
+
+<<bin>>
+------WebKitFormBoundaryCFQp1ewkZjKMbJbF--

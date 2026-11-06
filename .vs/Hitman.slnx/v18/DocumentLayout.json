@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\NewHtmCode\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A7AD120-7D4E-2A4E-22CA-6112D7249BB0}|Hitman.csproj|c:\\users\\administrator\\desktop\\newhtmcode\\clsmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A7AD120-7D4E-2A4E-22CA-6112D7249BB0}|Hitman.csproj|solutionrelative:clsmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A7AD120-7D4E-2A4E-22CA-6112D7249BB0}|Hitman.csproj|c:\\users\\administrator\\desktop\\newhtmcode\\app_framework\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A7AD120-7D4E-2A4E-22CA-6112D7249BB0}|Hitman.csproj|solutionrelative:app_framework\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A7AD120-7D4E-2A4E-22CA-6112D7249BB0}|Hitman.csproj|c:\\users\\administrator\\desktop\\newhtmcode\\ircommdll\\randomextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A7AD120-7D4E-2A4E-22CA-6112D7249BB0}|Hitman.csproj|solutionrelative:ircommdll\\randomextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A7AD120-7D4E-2A4E-22CA-6112D7249BB0}|Hitman.csproj|c:\\users\\administrator\\desktop\\newhtmcode\\app_framework\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A7AD120-7D4E-2A4E-22CA-6112D7249BB0}|Hitman.csproj|solutionrelative:app_framework\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A7AD120-7D4E-2A4E-22CA-6112D7249BB0}|Hitman.csproj|c:\\users\\administrator\\desktop\\newhtmcode\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A7AD120-7D4E-2A4E-22CA-6112D7249BB0}|Hitman.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A7AD120-7D4E-2A4E-22CA-6112D7249BB0}|Hitman.csproj|c:\\users\\administrator\\desktop\\newhtmcode\\app_framework\\banklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A7AD120-7D4E-2A4E-22CA-6112D7249BB0}|Hitman.csproj|solutionrelative:app_framework\\banklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\NewHtmCode\\APP_FRAMEWORK\\frmMain.cs",
+              "RelativeDocumentMoniker": "APP_FRAMEWORK\\frmMain.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\NewHtmCode\\APP_FRAMEWORK\\frmMain.cs [Design]",
+              "RelativeToolTip": "APP_FRAMEWORK\\frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T04:21:38.19Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RandomExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\NewHtmCode\\IRCommDLL\\RandomExtensions.cs",
+              "RelativeDocumentMoniker": "IRCommDLL\\RandomExtensions.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\NewHtmCode\\IRCommDLL\\RandomExtensions.cs",
+              "RelativeToolTip": "IRCommDLL\\RandomExtensions.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAEwDYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T04:17:16.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clsMain.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\NewHtmCode\\clsMain.cs",
+              "RelativeDocumentMoniker": "clsMain.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\NewHtmCode\\clsMain.cs*",
+              "RelativeToolTip": "clsMain.cs*",
+              "ViewState": "AgIAAP8VAAAAAAAAAAAAAAUWAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T04:07:03.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\NewHtmCode\\APP_FRAMEWORK\\Form2.cs",
+              "RelativeDocumentMoniker": "APP_FRAMEWORK\\Form2.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\NewHtmCode\\APP_FRAMEWORK\\Form2.cs",
+              "RelativeToolTip": "APP_FRAMEWORK\\Form2.cs",
+              "ViewState": "AgIAANoCAAAAAAAAAAAiwOICAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T04:02:56.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\NewHtmCode\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\NewHtmCode\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T04:02:28.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BankList.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\NewHtmCode\\APP_FRAMEWORK\\BankList.cs",
+              "RelativeDocumentMoniker": "APP_FRAMEWORK\\BankList.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\NewHtmCode\\APP_FRAMEWORK\\BankList.cs",
+              "RelativeToolTip": "APP_FRAMEWORK\\BankList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T03:56:12.889Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
